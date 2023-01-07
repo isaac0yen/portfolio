@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  section {
+    width: 500px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  footer {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 1000px) {
+    section {
+      width: 80%;
+    }
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav {
+      margin-bottom: 20px;
+    }
+  
+    nav a {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+    #contact{
+        border-radius: 20px;
+        border: 2px solid black;
+        background-image: url(pexels-min-an-853168.jpg);
+        background-position: center;
+    }
+    input , textarea{
+        border-radius: 20px;
+    }
+    #about{
+        background-image: url(photo-1585298723682-7115561c51b7.png);
+        background-position: center;
+        color: rgb(250, 246, 246);
+        border: 2px solid lightgray;
+        border-radius: 20px;
+    }
+    #projects{
+        color: rgb(255, 255, 255);
+        background-image: url(port2.jpg);
+        border: 2px solid lightgray;
+        border-radius: 20px;
+    }
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    .content {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
